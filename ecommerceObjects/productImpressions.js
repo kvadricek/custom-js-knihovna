@@ -1,6 +1,6 @@
 function(){
 var ecm = {{dl.ecommerce}},  // 
-    formateProductData = {{fn.formateProductData ---product}},
+    formateProductData = {{fn.formateProductData ---product}}, // function formatting the product object from a semantic data layer structure into enhanced ecommerce strucutre
     ld,
     list,
     prods; 
